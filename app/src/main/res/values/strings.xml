@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Kvartirka App</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="description_label">Описание</string>
+
+    <string-array name="prices">
+        <item>Цена за сутки</item>
+        <item>Цена за ночь</item>
+        <item>Цена за час</item>
+    </string-array>
+</resources>
