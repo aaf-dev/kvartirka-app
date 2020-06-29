@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#C59774</color>
-    <color name="colorPrimaryDark">#9F6F4B</color>
+    <color name="colorPrimary">@color/beige</color>
+    <color name="colorPrimaryDark">@color/beigeDark</color>
     <color name="colorAccent">#FF7309</color>
 
     <color name="colorVeryLightGrey">#E1E1E1</color>
     <color name="colorLightGrey">#CDCDCD</color>
+    <color name="greyBeige">#CFB9A9</color>
+    <color name="beige">#ffcc80</color>
+    <color name="beigeDark">#ca9b52</color>
+
+    <color name="veryDarkGrey">#303030</color>
+    <color name="darkGrey">#575757</color>
+    <color name="grey">#7E7E7E</color>
+
+    <color name="translucentBeige">#1AC59774</color>
 </resources>

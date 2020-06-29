@@ -1,4 +1,4 @@
-package com.example.kvartirkaapp.recycler
+package com.example.kvartirkaapp.main.ui.recycler
 
 import android.view.LayoutInflater
 import android.view.View
@@ -22,30 +22,36 @@ class RecyclerViewAdapter(var items: List<FlatModel>) : RecyclerView.Adapter<Mai
 
     override fun onBindViewHolder(holder: MainViewHolder, position: Int) {
         holder.setImage(items[position].defaultPhoto.url)
-        holder.setName(items[position].address)
+        holder.setTitle(items[position].title)
+        holder.setAddress(items[position].address)
         holder.setPrice(items[position].prices.pricePerDay)
     }
 }
 
 class MainViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
     private val image = view.image
-    private val name = view.name
+    private val title = view.title
+    private val address = view.address
     private val price = view.price
 
-    fun setImage(url: String) {
+    fun setImage(imageUrl: String) {
         Glide
             .with(view)
-            .load(url)
+            .load(imageUrl)
             .error(R.drawable.ic_baseline_error_24)
             .centerCrop()
             .into(image)
     }
 
-    fun setName(propertyName: String) {
-        name.text = propertyName
+    fun setTitle(flatTitle: String) {
+        title.text = flatTitle
     }
 
-    fun setPrice(propertyPrice: String) {
-        price.text = propertyPrice
+    fun setAddress(flatAddress: String) {
+        address.text = flatAddress
+    }
+
+    fun setPrice(flatPricePerDay: String) {
+        price.text = flatPricePerDay
     }
 }

@@ -18,4 +18,8 @@ class KvartirkaApplication : Application(), KodeinAware {
         import(MainInjectionModule.module)
         import(DetailsInjectionModule.module)
     }
+
+    companion object {
+        const val APPLICATION_LOGGING_TAG = "KV_APP"
+    }
 }

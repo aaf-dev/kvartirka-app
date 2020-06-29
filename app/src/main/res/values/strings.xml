@@ -2,6 +2,11 @@
     <string name="app_name">Kvartirka App</string>
     <string name="title_activity_details">DetailsActivity</string>
     <string name="description_label">Описание</string>
+    <string name="wait_textview">Пожалуйста, подождите…</string>
+    <string name="snackbar_message_without_action">Для работы с приложением необходим доступ к местоположению.</string>
+    <string name="snackbar_message_with_action">Необходимо разрешить приложению доступ к Вашему местоположению.</string>
+    <string name="loading_title">Загрузка…</string>
+    <string name="setting_action">SETTINGS</string>
 
     <string-array name="prices">
         <item>Цена за сутки</item>

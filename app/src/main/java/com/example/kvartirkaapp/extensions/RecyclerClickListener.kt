@@ -1,4 +1,4 @@
-package com.example.kvartirkaapp.recycler
+package com.example.kvartirkaapp.extensions
 
 import android.view.GestureDetector
 import android.view.MotionEvent

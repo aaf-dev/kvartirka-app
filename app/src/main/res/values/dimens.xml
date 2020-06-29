@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="tiny_dp_value">4dp</dimen>
+    <dimen name="small_dp_value">8dp</dimen>
+    <dimen name="medium_dp_value">16dp</dimen>
+    <dimen name="viewpager_height">200dp</dimen>
+    <dimen name="flat_title_text_size">24sp</dimen>
+    <dimen name="regular_text_size">16sp</dimen>
+    <dimen name="description_text_size">20sp</dimen>
+    <dimen name="big_dp_value">16dp</dimen>
+    <dimen name="recycler_item_height">300dp</dimen>
 </resources>

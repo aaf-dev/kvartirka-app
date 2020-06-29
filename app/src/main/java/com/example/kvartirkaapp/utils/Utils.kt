@@ -9,6 +9,7 @@ import android.net.Uri
 import android.provider.Settings
 import android.view.View
 import androidx.core.app.ActivityCompat
+import com.example.kvartirkaapp.R
 import com.google.android.material.snackbar.Snackbar
 import java.text.DecimalFormat
 
@@ -45,7 +46,7 @@ object Utils {
             }
         }
         Snackbar.make(view, message, Snackbar.LENGTH_LONG).apply {
-            setAction("ok, settings", clickListener)
+            setAction(context.getString(R.string.setting_action), clickListener)
             show()
         }
     }
@@ -60,7 +61,7 @@ object Utils {
         return if (price != 0) {
             "${formatter.format(price)} $currency"
         } else {
-            "N / A"
+            "—"
         }
     }
 }

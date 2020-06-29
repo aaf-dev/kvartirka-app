@@ -1,10 +1,35 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/beigeDark</item>
+    </style>
+
+    <style name="CustomToolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:theme">@style/AppTheme</item>
+    </style>
+
+    <style name="FlatTitleStyle">
+        <item name="android:layout_marginStart">@dimen/medium_dp_value</item>
+        <item name="android:layout_marginTop">@dimen/medium_dp_value</item>
+        <item name="android:layout_marginEnd">@dimen/medium_dp_value</item>
+        <item name="android:layout_marginBottom">@dimen/tiny_dp_value</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/flat_title_text_size</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="FlatAddressStyle">
+        <item name="android:layout_marginStart">@dimen/medium_dp_value</item>
+        <item name="android:layout_marginTop">@dimen/small_dp_value</item>
+        <item name="android:layout_marginEnd">@dimen/medium_dp_value</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/regular_text_size</item>
+        <item name="android:textColor">@color/darkGrey</item>
     </style>
 
 </resources>
